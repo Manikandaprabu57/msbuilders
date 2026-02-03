@@ -112,9 +112,7 @@ const GooeyNav = ({
       textRef.current.classList.add('active');
     }
 
-    if (filterRef.current) {
-      makeParticles(filterRef.current);
-    }
+    // Particle effect removed - no makeParticles call
   };
 
   const handleKeyDown = (e, index) => {
